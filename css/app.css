@@ -1,0 +1,15 @@
+:root{
+    --primary-heading-font:'Playfair Display', serif;
+    --secondary-heading-font:'Poppins', sans-serif;
+}
+
+h1{
+    font-family: var(--primary-heading-font);
+    font-weight: bold;
+    color: black;
+}
+
+p{
+    font-family: var(--secondary-heading-font);
+    font-weight: normal;
+}
