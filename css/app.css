@@ -22,6 +22,8 @@ p{
     font-weight: normal;
 }
 
+/* Homepage */
+
 .hero{
     background: var(--hero-background);
     text-align: center;
@@ -50,4 +52,39 @@ p{
     font-weight: medium;
     line-height: 27px;
     padding: 18px, 30px;
+}
+
+
+/* homepage animation */
+
+@keyframes heading {
+    from {color: #F9F7FE;
+        margin-left: 100%;
+    width: 300%;}
+    to {color: #fec83f;
+    margin-left: 0%;
+    width: 100%;}
+}
+
+h1{
+    color: #fec83f;
+    animation-name: heading;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes subheading {
+    from {color: #F9F7FE;
+    margin-left: -100%;
+    width: -300%;}
+    to {color: #272142;
+    margin-left: 0%;
+    width: -100%;}
+}
+
+h2{
+    color: #272142;
+    animation-name: subheading;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
 }
