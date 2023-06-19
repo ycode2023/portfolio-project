@@ -6,7 +6,7 @@
     --secondary-heading-font:'Poppins', sans-serif;
     --hero-background: #F9F7FE;
     --primary-color: #fec83f;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --box-shadow: 0px 0px 0px 5px rgba(254, 200, 63, 0.477);
     --email-color: #6c63ff;
 }
 
@@ -53,7 +53,7 @@ p{
     border: 1px solid #fec83f;
 }
 
-.hover-effect{
+.hover-effect {
     color: var(--primary-color);
 }
 
@@ -96,7 +96,7 @@ p{
 }
 
 
-/* Homepage hover effect */
+/* Homepage Hover Effect */
 
 .hover-effect {
   display: flex;
@@ -137,7 +137,7 @@ p{
 }
 
 
-/* homepage animation */
+/* Homepage Animation */
 
 @keyframes heading {
     from {color: #F9F7FE;
@@ -194,6 +194,60 @@ p{
 
 
 
+/* About Page */
+
+.programmer-identity {
+    color: var(--primary-color);
+}
+
+.about-section{
+    padding: 70px 20px;
+}
+
+.about-section h1{
+    font-size: 64px;
+    line-height: 1.5;
+}
+
+.about-section h2{
+    font-size: 30px;
+    font-family: var(--secondary-heading-font);
+}
+
+.about-section h3{
+    font-size: 18px;
+    font-family: var(--secondary-heading-font);
+    line-height: 1.5; 
+}
+
+.about-section-content{
+    margin: 10px;
+}
+
+.yalda{
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+
+/* About Page Animation */
+
+@keyframes programmer {
+    from {color: #272142;}
+    to {color: #fec83f;}
+}
+
+.programmer-identity{
+    color: #fec83f;
+    animation-name: programmer;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+
+
+
 /* media queries */
 
 @media (max-width:900px){
@@ -213,5 +267,15 @@ h1{font-size: 40px;}
 }
 .project-heading{
     font-size: 44px;
+}
+
+.about-section{
+    text-align: center;
+    padding: 0;
+}
+
+.index-intro{
+    display: block;
+    margin: auto;
 }
 }
