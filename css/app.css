@@ -234,14 +234,17 @@ p{
 /* About Page Animation */
 
 @keyframes programmer {
-    from {color: #272142;}
-    to {color: #fec83f;}
+    from {color: #272142;
+    font-size: 16px ;}
+    to {color: #fec83f;
+    font-size: 22px;}
 }
 
 .programmer-identity{
     color: #fec83f;
+    font-size: 22px;
     animation-name: programmer;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
 }
 
