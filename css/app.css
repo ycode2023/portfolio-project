@@ -10,7 +10,7 @@
     --email-color: #6c63ff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
     font-family: var(--primary-heading-font);
     font-weight: bold;
 }
@@ -24,6 +24,7 @@ p{
     font-family: var(--secondary-heading-font);
     font-weight: normal;
     font-size: 16px;
+    opacity: 0.7;
 }
 
 .hero-secondary{
@@ -76,6 +77,15 @@ p{
     color: #272142;
 }
 
+.tech-stack{
+    max-width: 470px;
+    margin-left: 2px;
+    font-size: 16px;
+}
+
+.vscode{
+    margin-left: -20px;
+}
 
 
 /* Work Page */
