@@ -26,7 +26,8 @@ nav ul{
     margin: 0;
 }
 
-nav a{
+nav a,
+.contact a {
 text-decoration: none;
 color: #272142;
     transition: all 100ms ease;
@@ -34,7 +35,8 @@ color: #272142;
 }
 
 nav li.active a,
-nav :hover{
+nav :hover,
+.contact a:hover{
     color: var(--primary-color);
 }
 
@@ -85,6 +87,26 @@ p{
     color: var(--primary-color);
 }
 
+footer{
+margin: 50px 0;
+padding: 20px;
+background: var(--hero-background);
+border-radius: 10px;
+}
+
+footer a{
+margin: 20px 20px;
+background: white;
+padding: 10px 14px;
+border-radius: 50%;
+color: var(--primary-color);
+transition: all 100ms ease;
+}
+
+footer a:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
 
 /* Homepage */
 
@@ -122,6 +144,8 @@ p{
 .tech-text{
     font-size: 12px;
 }
+
+
 
 
 /* Homepage Hover Effect */
@@ -202,22 +226,21 @@ p{
 
 /* Work Page */
 
-.work-heading{
+.hero-secondary h1{
     font-size: 54px;
     padding: 30px 20px;
 }
 
-.project-heading{
+.project-description{
+    padding: 120px 60px;
+}
+
+.project-description h2{
     font-size: 50px;
 }
 
-.project-paragraph{
+.project-description p{
     line-height: 30px;
-
-}
-
-.project-description{
-    padding: 120px 60px;
 }
 
 
@@ -259,24 +282,56 @@ p{
     display: block;
 }
 
+.about-section-other{
+    text-align: center;
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.about-section-other ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.about-section-other li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section-other span{
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.about-box{
+    background-color: white;
+    padding: 40px;
+    margin: 30px;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
 /* About Page Animation */
 
 @keyframes programmer {
     from {color: #272142;
     font-size: 16px ;}
     to {color: #fec83f;
-    font-size: 22px;}
+    font-size: 20px;}
 }
 
 .programmer-identity{
     color: #fec83f;
-    font-size: 22px;
+    font-size: 20px;
     animation-name: programmer;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: 1;
 }
-
-
 
 
 /* media queries */
@@ -290,6 +345,14 @@ h1{font-size: 40px;}
 
 .hero h2{
     font-size: 16px;
+}
+
+.hover-effect{
+    margin-bottom: 30px;
+}
+
+.hover-effect span{
+    font-size: 15px;
 }
 
 .project-description{
@@ -309,4 +372,5 @@ h1{font-size: 40px;}
     display: block;
     margin: auto;
 }
+
 }
