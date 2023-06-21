@@ -88,19 +88,19 @@ p{
 }
 
 footer{
-margin: 50px 0;
-padding: 20px;
-background: var(--hero-background);
-border-radius: 10px;
+    padding: 20px;
+    margin: 50px 0;
+    background: var(--hero-background);
+    border-radius: 10px;
 }
 
 footer a{
-margin: 20px 20px;
-background: white;
-padding: 10px 14px;
-border-radius: 50%;
-color: var(--primary-color);
-transition: all 100ms ease;
+    margin: 20px 20px;
+    background: white;
+    padding: 10px 14px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transition: all 100ms ease;
 }
 
 footer a:hover{
@@ -252,7 +252,7 @@ footer a:hover{
 }
 
 .about-section{
-    padding: 70px 20px;
+    padding: 40px 20px;
 }
 
 .about-section h1{
@@ -315,6 +315,18 @@ footer a:hover{
   box-shadow: 0 20px 30px rgba(0,0,0,.1);
   line-height: 0;
 }
+
+.tech-stack-other{
+    display:flex;
+    justify-content:center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    gap: 30px 30px;
+}
+
+
+
 
 /* About Page Animation */
 
